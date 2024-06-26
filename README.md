@@ -21,3 +21,5 @@ Frontend Framework: React
 Styling: CSS
 State Management: React hooks
 API Integration: Fetching data from a third-party movie database API (OMDb API)
+
+<img width="1479" alt="MovieLand" src="https://github.com/mythilik908/movieland/assets/37060705/e8f99c01-95e9-467b-9341-042a64db8de9">
