@@ -1,5 +1,5 @@
 ## Overview
-The Movie Browser App is a web application designed to provide users with a comprehensive and user-friendly platform to browse and discover movies. Built using React for the front-end framework and styled with CSS, this app delivers a seamless and visually appealing user experience. The app leverages a movie database API to fetch and display an extensive list of movies, including detailed information about each movie, such as ratings, genres, release dates, and summaries.
+The Movie Browser App is a web application designed to provide users with a comprehensive and user-friendly platform to browse and discover movies. Built using React for the front-end framework and styled with CSS, this app delivers a seamless and visually appealing user experience. The app leverages a movie database API to fetch and display an extensive list of movies.
 
 ## Key Features
 
