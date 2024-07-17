@@ -5,23 +5,18 @@ Live Link: https://mythilik908.github.io/movieland/
 
 ## Key Features
 
-Intuitive User Interface:
+🌟 **Intuitive User Interface:** Clean and modern design for an engaging user experience. Responsive layout ensuring compatibility across various devices (desktops, tablets, smartphones).
 
-Clean and modern design for an engaging user experience.
-Responsive layout ensuring compatibility across various devices (desktops, tablets, smartphones).
+🎬 **Movie Listings:** Browse through a large collection of movies, displayed in a grid or list format.
 
-Movie Listings:
+🔍 **Search and Filter:** Search functionality to quickly find movies by title.
 
-Browse through a large collection of movies, displayed in a grid or list format.
-
-Search and Filter:
-
-Search functionality to quickly find movies by title.
 
 ## Technical Stack
-Frontend Framework: React <br>
-Styling: CSS <br>
-State Management: React hooks <br>
-API Integration: Fetching data from a third-party movie database API (OMDb API) <br>
+
+**Frontend Framework:** React
+**Styling:** CSS
+**State Management:** React hooks
+**API Integration:** Fetching data from a third-party movie database API (OMDb API)
 
 <img width="1479" alt="MovieLand" src="https://github.com/mythilik908/movieland/assets/37060705/e8f99c01-95e9-467b-9341-042a64db8de9">
