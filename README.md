@@ -19,4 +19,5 @@ Live Link: [https://mythilik908.github.io/showflix/  ](https://mythilik908.githu
 **State Management:** React hooks
 **API Integration:** Fetching data from a third-party movie database API (OMDb API)
 
-<img width="1479" alt="MovieLand" src="https://github.com/mythilik908/movieland/assets/37060705/e8f99c01-95e9-467b-9341-042a64db8de9">
+
+![Screenshot 2024-10-20 at 5 56 23 PM](https://github.com/user-attachments/assets/005b3f80-47e6-47e4-8b77-4661af439504)
