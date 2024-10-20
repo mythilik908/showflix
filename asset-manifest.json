@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/movieland/static/css/main.67312c9f.css",
-    "main.js": "/movieland/static/js/main.6937e4da.js",
-    "static/media/poster.svg": "/movieland/static/media/poster.9823a5646200566d10233c58d29a319b.svg",
-    "static/media/showflix.png": "/movieland/static/media/showflix.b0db4c7157f6ec19faf7.png",
-    "static/media/revicons.eot": "/movieland/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/movieland/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/movieland/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/movieland/index.html",
-    "main.67312c9f.css.map": "/movieland/static/css/main.67312c9f.css.map",
-    "main.6937e4da.js.map": "/movieland/static/js/main.6937e4da.js.map"
+    "main.css": "/showflix/static/css/main.4bead31b.css",
+    "main.js": "/showflix/static/js/main.fe4d7d3b.js",
+    "static/media/poster.svg": "/showflix/static/media/poster.9823a5646200566d10233c58d29a319b.svg",
+    "static/media/showflix.png": "/showflix/static/media/showflix.b0db4c7157f6ec19faf7.png",
+    "static/media/revicons.eot": "/showflix/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/showflix/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/showflix/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/showflix/index.html",
+    "main.4bead31b.css.map": "/showflix/static/css/main.4bead31b.css.map",
+    "main.fe4d7d3b.js.map": "/showflix/static/js/main.fe4d7d3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.67312c9f.css",
-    "static/js/main.6937e4da.js"
+    "static/css/main.4bead31b.css",
+    "static/js/main.fe4d7d3b.js"
   ]
 }
