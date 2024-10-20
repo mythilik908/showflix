@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 * {
   margin: 0;
@@ -10,16 +12,16 @@
 :root {
   --font-roboto: "Roboto Slab", serif;
   --font-raleway: "Raleway", sans-serif;
+  --font-archivo: 'Archivo Narrow', sans-serif;
 }
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background-color: black;
 }
 
 .app {
   padding: 4rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,31 +31,64 @@ body {
 h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
-  background: linear-gradient(
-    90deg,
-    rgba(249, 211, 180, 1) 0%,
-    rgba(249, 211, 180, 0) 100%
-  );
+  background: linear-gradient(90deg,
+      #ff0000 0%,
+      rgb(221, 101, 101) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
 }
 
-.search {
-  width: 71%;
-  margin: 4rem 0 2rem;
-
+.sub-heading {
+  font-family: var(--font-raleway);
+  font-size: 1.5rem;
+  color: #a1a1a1;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  margin-top: 1rem;
 
-  padding: 1.5rem 1.75rem;
-  border-radius: 3rem;
+}
+
+.sub-heading-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 550px;
+  padding: 1em
+}
+
+.sub-heading-text-title {
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+
+
+.search {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  padding: 0.1rem .75rem;
+  border-radius: 2rem;
   background: #1f2123;
   -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
   box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px -5px;
+  box-sizing: border-box;
+}
+
 
 .search input {
   flex: 1;
@@ -62,7 +97,7 @@ h1 {
   font-family: var(--font-raleway);
   font-weight: 500;
   padding-right: 1rem;
-
+  width: 250px;
   outline: none;
   color: #a1a1a1;
   background: #1f2123;
@@ -74,20 +109,6 @@ h1 {
   cursor: pointer;
 }
 
-/* .search button {
-  padding: 20px 40px;
-  border-radius: 0.5rem;
-  margin-left: 15px;
-  color: #a1a1a1;
-  font-family: var(--font-raleway);
-  font-weight: 900;
-  letter-spacing: 0.75px;
-  font-size: 1.25rem;
-  cursor: pointer;
-  background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-} */
 
 .empty {
   width: 100%;
@@ -100,8 +121,15 @@ h1 {
 
 .empty h2 {
   font-size: 1.25rem;
-  color: #f9d3b4;
+  color: #ffff;
   font-family: var(--font-raleway);
+}
+
+.carousel {
+  padding: 20px 0;
+
+  height: 100%;
+  width: 100%;
 }
 
 .container {
@@ -115,8 +143,8 @@ h1 {
 }
 
 .movie {
-  width: 310px;
-  height: 460px;
+  width: 236px;
+  height: 400px;
   margin: 1.5rem;
 
   position: relative;
@@ -134,7 +162,7 @@ h1 {
   width: 100%;
   opacity: 0;
   top: 0;
-  color: #f9d3b4;
+  color: #ffff;
 }
 
 .movie:hover {
@@ -150,6 +178,10 @@ h1 {
 .movie div:nth-of-type(2) img {
   height: 100%;
   width: 100%;
+}
+
+.movie-body {
+  padding: 10px
 }
 
 .movie div:nth-of-type(3) {
@@ -175,7 +207,7 @@ h1 {
 .movie div:nth-of-type(3) h3 {
   margin-top: 5px;
   font-family: "Roboto Slab", serif;
-  color: #f9d3b4;
+  color: #ffff;
 }
 
 .movie:hover div:nth-of-type(2) {
