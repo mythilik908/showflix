@@ -161,7 +161,7 @@ const SearchPage = () => {
         }
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [searchTerm, pageNumber]);
+    }, [searchTerm, pageNumber, searchMovies, isLoading, hasMore]);
 
     return (
         <div>
