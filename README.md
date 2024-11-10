@@ -1,7 +1,7 @@
 ## Overview
 The Movie Browser App is a web application designed to provide users with a comprehensive and user-friendly platform to browse and discover movies. Built using React for the front-end framework and styled with CSS, this app delivers a seamless and visually appealing user experience. The app leverages a movie database API to fetch and display an extensive list of movies.
 
-Live Link: https://mythilik908.github.io/movieland/  
+Live Link: [https://mythilik908.github.io/showflix/  ](https://mythilik908.github.io/showflix/)
 
 ## Key Features
 
@@ -19,4 +19,5 @@ Live Link: https://mythilik908.github.io/movieland/
 **State Management:** React hooks
 **API Integration:** Fetching data from a third-party movie database API (OMDb API)
 
-<img width="1479" alt="MovieLand" src="https://github.com/mythilik908/movieland/assets/37060705/e8f99c01-95e9-467b-9341-042a64db8de9">
+
+![Screenshot 2024-10-20 at 5 56 23 PM](https://github.com/user-attachments/assets/005b3f80-47e6-47e4-8b77-4661af439504)
